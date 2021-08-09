@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial;
+    margin: 0;
+  }
+  header {
+    padding: 60px;
+    text-align: center;
+    background: pink;
+    color: #fff;
+  }
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+  margin-top: 2%;
+  }
+  .about {
+    flex: 1 0 200px;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+  }
+  .about header {
+    padding: 20px;
+    background: white;
+    color: pink;
+  }
