@@ -16,6 +16,17 @@ body {
     flex-wrap: wrap;
   margin-top: 2%;
   }
+  nav a:hover {
+      color:black;
+  }
+  .pic {
+    height: 250px;
+    margin-bottom: 25px;
+    background-image: url(./portfolio-pic.JPG);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
   .about {
     flex: 1 0 200px;
     padding: 10px;
@@ -28,3 +39,28 @@ body {
     background: white;
     color: pink;
   }
+  .conent {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+  }
+  .about-me {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+    color: black;
+  }
+  .contact-info h3 {
+      text-align: left;
+      margin-bottom: 20px;
+      padding: 50px;
+      background-color: white;
+      color:pink
+      
+  }
+  ul {
+      text-align: left;
+  }
+  
